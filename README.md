@@ -1,7 +1,6 @@
 This project contains two reusable UI components built with React, TypeScript, and TailwindCSS and documented with Storybook.
 
 🚀 Components
-
 1. InputField
 
 Flexible input component with:
@@ -14,9 +13,7 @@ Variants: filled, outlined, ghost
 
 Sizes: sm, md, lg
 
-Optional: clear button, password toggle
-
-Supports light & dark theme
+clear button, password toggle
 
 2. DataTable
 
@@ -48,17 +45,43 @@ Vite (or CRA/Next.js, depending on your setup)
 
 Clone the repo:
 
-git clone https://github.com/your-username/frontend-assignment.git
+git clone https://github.com//frontend-assignment.git
 cd frontend-assignment
+
 
 Install dependencies:
 
 npm install
 
+
 Run the dev server:
 
 npm run dev
 
+
 Run Storybook:
 
 npm run storybook
+
+📚 Folder Structure
+frontend-assignment/
+│── package.json
+│── tsconfig.json
+│── tailwind.config.js
+│── vite.config.ts 
+│── README.md
+│
+├── src/
+│   ├── components/
+│   │   ├── InputField.tsx
+│   │   |-- DataTable.tsx             
+│   │   ├── InputField.stories.tsx
+│   │   └── DataTable.stories.tsx
+│   │
+│   ├── __tests__/            # Jest test files
+│   │   ├── InputField.test.tsx
+│   │   └── DataTable.test.tsx
+│   │
+│   └── App.tsx               # Example usage
+│
+└── .storybook/               # Storybook config 
