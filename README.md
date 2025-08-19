@@ -68,13 +68,15 @@ frontend-assignment/
 │── package.json
 │── tsconfig.json
 │── tailwind.config.js
-│── vite.config.ts 
+│── vite.config.ts (or next.config.js if Next.js)
 │── README.md
 │
 ├── src/
 │   ├── components/
 │   │   ├── InputField.tsx
-│   │   |-- DataTable.tsx             
+│   │   └── DataTable.tsx
+│   │
+│   ├── stories/              # Storybook stories
 │   │   ├── InputField.stories.tsx
 │   │   └── DataTable.stories.tsx
 │   │
