@@ -45,8 +45,8 @@ Vite (or CRA/Next.js, depending on your setup)
 
 Clone the repo:
 
-git clone https://github.com//frontend-assignment.git
-cd frontend-assignment
+git clone https://github.com/Naveenshukla25/Assignment.git
+cd Assignment
 
 
 Install dependencies:
