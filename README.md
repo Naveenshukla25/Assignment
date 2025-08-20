@@ -14,9 +14,7 @@ Variants: filled, outlined, ghost
 
 Sizes: sm, md, lg
 
-Optional: clear button, password toggle
-
-Supports light & dark theme
+clear button, password toggle
 
 2. DataTable
 
@@ -48,8 +46,8 @@ Vite (or CRA/Next.js, depending on your setup)
 
 Clone the repo:
 
-git clone https://github.com/your-username/frontend-assignment.git
-cd frontend-assignment
+git clone https://github.com/Naveenshukla25/Assignment.git
+cd Assignment
 
 Install dependencies:
 
