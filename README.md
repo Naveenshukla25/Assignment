@@ -60,6 +60,7 @@ npm run dev
 Run Storybook:
 
 npm run storybook
+<<<<<<< HEAD
 
 my-assignment/
 │── package.json
@@ -83,3 +84,5 @@ my-assignment/
 │ └── App.tsx  
 │
 └── .storybook/
+=======
+>>>>>>> 314a0d2 (add readme)
