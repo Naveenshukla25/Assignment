@@ -62,3 +62,26 @@ npm run dev
 Run Storybook:
 
 npm run storybook
+
+my-assignment/
+│── package.json
+│── tsconfig.json
+│── tailwind.config.js
+│── vite.config.ts
+│── README.md
+│
+├── src/
+│ ├── components/
+| ├── InputField/  
+│ │ ├── InputField.stories.tsx
+│ │ └── InputField.stories.tsx
+| ├── DataField/  
+│ │ ├── DataTable.tsx
+│ │ └── DataTable.stories.tsx  
+│ ├── **tests**/  
+│ │ ├── InputField.test.tsx
+│ │ └── DataTable.test.tsx
+│ │
+│ └── App.tsx  
+│
+└── .storybook/

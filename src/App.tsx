@@ -12,9 +12,9 @@ const App: React.FC = () => {
   const [inputValue, setInputValue] = useState("");
 
   const data: User[] = [
-    { id: 1, name: "Alice", age: 24 },
-    { id: 2, name: "Bob", age: 29 },
-    { id: 3, name: "Charlie", age: 31 },
+    { id: 1, name: "Naveen", age: 23 },
+    { id: 2, name: "Krishna", age: 22 },
+    { id: 3, name: "Gopal", age: 24 },
   ];
 
   const columns: Column<User>[] = [
@@ -32,7 +32,7 @@ const App: React.FC = () => {
         helperText="This is a helper text"
         errorMessage="This field is required"
         invalid={!inputValue}
-        variant="outlined"
+        variant="ghost"
         size="md"
         clearable
       />

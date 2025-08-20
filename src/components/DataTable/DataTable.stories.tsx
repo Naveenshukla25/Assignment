@@ -17,9 +17,9 @@ export default meta;
 type Story = StoryObj<typeof DataTable<User>>;
 
 const data: User[] = [
-  { id: 1, name: "Alice", age: 24 },
-  { id: 2, name: "Bob", age: 29 },
-  { id: 3, name: "Charlie", age: 31 },
+  { id: 1, name: "Naveen ", age: 23 },
+  { id: 2, name: "Krishna ", age: 22 },
+  { id: 3, name: "Goapal", age: 24 },
 ];
 
 const columns: Column<User>[] = [

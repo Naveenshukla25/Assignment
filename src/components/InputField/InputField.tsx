@@ -80,7 +80,7 @@ export const InputField: React.FC<InputFieldProps> = ({
           <button
             type="button"
             onClick={() => setShowPassword(!showPassword)}
-            className="absolute right-2 text-gray-500 hover:text-gray-700 text-sm"
+            className="absolute right-6 text-gray-500 hover:text-gray-700 text-sm"
           >
             {showPassword ? "🙈" : "👁️"}
           </button>
